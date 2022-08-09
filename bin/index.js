@@ -58,6 +58,7 @@ function getProjectNameAndVersion() {
   ])
 }
 
+// 下载模版
 function downloadTemplate(repo, dir) {
   const spinner = ora('正在下载模版');
   spinner.start();
